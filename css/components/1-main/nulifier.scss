@@ -1,0 +1,91 @@
+/*** 
+
+====================================================================
+	Reset
+====================================================================
+
+***/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $main-bg;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0054f7;
+  border-radius: 2px;
+  border: 3px solid $main-bg;
+}
+/*** 
+  ====================================================================
+      Global Settings
+  ====================================================================
+   ***/
+body {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: $white;
+  background: $main-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+}
+.auto__container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

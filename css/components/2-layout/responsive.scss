@@ -1,0 +1,183 @@
+// 1240px
+@include xlg-xxlg {
+  // base start
+  @include nav-xlg-xxlg;
+  @include header-xlg-xxlg;
+  h1 {
+    font-size: 52px;
+    line-height: 62px;
+    &.sm {
+      font-size: 52px;
+      line-height: 66px;
+    }
+  }
+  h2 {
+    &.ex {
+      font-size: 52px;
+      line-height: 62px;
+    }
+    &.big {
+      font-size: 42px;
+      line-height: 56px;
+    }
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  // base end
+  // index page start
+  @include about-xlg-xxlg;
+  // index page end
+  // blogs page start
+  @include article-xlg-xxlg;
+  @include info-xlg-xxlg;
+  // blogs page end
+  // courses page start
+  @include course-xlg-xxlg;
+  @include desc-xlg-xxlg;
+  // courses page end
+}
+// 1024px
+@include lg-xlg {
+  .wrapper {
+    padding-top: 58.67px;
+  }
+  h2 {
+    &.big {
+      font-size: 36px;
+      line-height: 46px;
+    }
+  }
+  // base start
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  // base end
+  // index page start
+  @include intro-lg-xlg;
+  @include service-lg-xlg;
+  @include more-lg-xlg;
+  @include portfolio-lg-xlg;
+  @include contact-lg-xlg;
+  @include about-lg-xlg;
+  // index page end
+  // blogs page start
+  @include article-lg-xlg;
+  @include info-lg-xlg;
+  @include blog-lg-xlg;
+  // blogs page end
+  // courses page start
+  @include desc-lg-xlg;
+  @include view-lg-xlg;
+  // courses page end
+}
+// 860px
+@include md-lg {
+  // base start
+  @include footer-md-lg;
+  h1 {
+    font-size: 48px;
+    line-height: 55px;
+    &.sm {
+      font-size: 48px;
+      line-height: 62px;
+    }
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 52px;
+    &.ex {
+      font-size: 46px;
+      line-height: 55px;
+    }
+    &.big {
+      font-size: 32px;
+      line-height: 44px;
+    }
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  // base end
+  // index page start
+  @include intro-md-lg;
+  @include service-md-lg;
+  @include more-md-lg;
+  @include skill-md-lg;
+  @include portfolio-md-lg;
+  @include about-md-lg;
+  @include contact-md-lg;
+  @include faq-md-lg;
+  // index page end
+  // blogs page start
+  @include article-md-lg;
+  @include join-md-lg;
+  @include info-md-lg;
+  // blogs page end
+  // courses page start
+  @include course-md-lg;
+  // courses page end
+}
+// 700px
+@include sm-md {
+  // index page start
+  @include portfolio-sm-md;
+  @include service-sm-md;
+  // index page end
+  // blogs page start
+  @include article-sm-md;
+  @include blog-sm-md;
+  // blogs page end
+  // courses page start
+  @include desc-sm-md;
+  // courses page end
+}
+// 540px
+@include xsm-sm {
+  // base start
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    &.sm {
+      font-size: 44px;
+      line-height: 60px;
+    }
+  }
+  h2 {
+    &.big {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+  // base end
+  // index page start
+  @include more-xsm-sm;
+  @include contact-xsm-sm;
+  @include intro-xsm-sm;
+  // index page end
+  // blogs page start
+  @include article-xsm-sm;
+  @include join-xsm-sm;
+  @include info-xsm-sm;
+  // blogs page end
+  // courses page start
+  @include desc-xsm-sm;
+  // courses page end
+}
+// extra
+@include extra {
+  // base start
+  h1 {
+    font-size: 36px;
+    line-height: 52px;
+  }
+  // base end
+  // blogs page start
+  @include info-extra;
+  // blogs page end
+  // courses page start
+  @include view-extra;
+  // courses page end
+}
